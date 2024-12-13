@@ -1,0 +1,18 @@
+.form-card{
+  padding: 25px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+.form-text button.btn{
+    margin: 0px 10px 0 0;
+    align-items: center;
+}
+.form-text textarea{
+    height: 150px;
+}
+.form-card h1{
+   font-family: "Sofia", sans-serif;
+   text-align: center;
+}

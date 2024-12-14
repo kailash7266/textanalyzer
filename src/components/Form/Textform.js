@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import './Index.css';
 
 export default function Textform() {
-    const [count, setCount] = useState("0");
+    const [count, setCount] = useState(" ");
     const [text, setText] = useState('Enter text here..')
-    const [newText, setNewText] = useState("0");
+    const [newText, setNewText] = useState(" ");
     const handleUpClick = () => {
         console.log(text.toUpperCase())
         setNewText(text.toUpperCase())

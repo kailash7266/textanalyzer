@@ -1,0 +1,71 @@
+footer {
+    background-color: var(--light-color);
+    color: rgba(0, 0, 0, .5);
+    padding: 1rem 1rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-links,
+.footer-social,
+.footer-contact,
+.newsletter-signup {
+    margin: 1rem;
+}
+
+.footer-links a {
+    color: rgba(0, 0, 0, .5);
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: rgba(0, 0, 0, .7);
+    text-decoration: none;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.footer-social i.fa-facebook {
+    padding: 15px 20px 15px 20px
+}
+
+.footer-social i:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.footer-social i.fa-facebook:hover {
+    padding: 15px 20px 15px 20px
+}
+
+.newsletter-signup {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.newsletter-signup input {
+    margin-left: 20%;
+}
+
+@media (max-width:768px) {
+    .newsletter-signup input {
+        width: 100%;
+    }
+
+    .newsletter-signup button {
+        width: 100%;
+    }
+}

@@ -53,10 +53,10 @@ Navbar.propTypes={
 
 Navbar.defaultProps = {
 	homepage:"Homepage",
-	title: "TextUtils",
-	contact:"Contact us",
+	title: "Text Analizer",
+	contact:"Contact",
 	services: "Services",
-	about: "About Us",
+	about: "About us",
 	button:"Search"
 }
 

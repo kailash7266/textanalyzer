@@ -2,15 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar  from './components/Navbar/Index';
 import './components/Navbar/Index.css';
-import Menu from './components/Navbar/Menu';
+import Testimonials from './components/Navbar/Testimonials';
 import Textform from './components/Form/Textform';
+import Footer from './components/Navbar/Footer';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <Textform/>
       <Navbar title="TextUtils"/>
-      <Menu/>
+      <Testimonials/>
+      <Footer/>
       </header>
     </div>
   );

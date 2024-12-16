@@ -45,31 +45,39 @@ export default function Textform() {
     }
 
     return (
-        <div className='row'>
-            <div className='col-sm-3'>
+        <div className='row textanalizer'>
+            <div className='col-sm-3 mh-0'>
             </div>
             <div className='col-sm-6 form-card'>
-                <h1>Text Analizer</h1>
+                <h1>Text Analizer
+                <div class="roller">
+                    <span id="rolltext">Upper Case<br/>
+                    Lower Case<br/>
+                    Camel Case<br/>
+                    Count Char<br/>
+                    </span>
+                    </div>
+                    </h1>
+
                 <form className='form-text'>
                     <div className="form-group">
                         <textarea className="form-control" value={text} onChange={handleOnChange} id="exampleInputEmail1" aria-describedby="emailHelp" >
                         </textarea>
-                        <div class="alert alert-secondary mt-3" role="alert">
+                        <div className="alert alert-secondary mt-3" role="alert">
                             Total number of character is: {count}
                         </div>
                         <textarea className="form-control" id="newText" value={newText} aria-describedby="emailHelp" >
                         </textarea>
                     </div>
-                    <button type="button" className="btn btn-primary" onClick={handleUpClick}>To Upper Case</button>
-                    <button type="button" className="btn btn-primary" onClick={handleLowerCase}>To Lower Case</button>
-                    <button type="button" className="btn btn-primary" onClick={handleCamelCase}>To Camel Case</button>
-                    <button type="button" className="btn btn-primary" onClick={handleCountChar}>Count Char</button>
-                    <button type="button" className="btn btn-primary" onClick={copyToclipBoard}>Copy text</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleUpClick}>To Upper Case</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleLowerCase}>To Lower Case</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleCamelCase}>To Camel Case</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleCountChar}>Count Char</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={copyToclipBoard}>Copy text</button>
                 </form>
 
             </div>
             <div className='col-sm-3'>
-
             </div>
         </div>
     )

@@ -66,14 +66,18 @@ export default function Textform() {
                         <div className="alert alert-secondary mt-3" role="alert">
                             Total number of character is: {count}
                         </div>
+                        <div className="alert alert-secondary mt-3" role="alert">
+                            Total number of character is: {text.length} and Words is: {text.split(" ").length} , Read it in : {.008*text.split(" ").length} Minutes
+                        </div>
+                        <h6>Preview text</h6>
                         <textarea className="form-control" id="newText" value={newText} aria-describedby="emailHelp" >
                         </textarea>
                     </div>
-                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleUpClick}>To Upper Case</button>
-                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleLowerCase}>To Lower Case</button>
-                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleCamelCase}>To Camel Case</button>
-                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={handleCountChar}>Count Char</button>
-                    <button type="button" className="btn custom-btn-outline-success my-2 " onClick={copyToclipBoard}>Copy text</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 mx-2" onClick={handleUpClick}>To Upper Case</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 mx-2" onClick={handleLowerCase}>To Lower Case</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 mx-2" onClick={handleCamelCase}>To Camel Case</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 mx-2" onClick={handleCountChar}>Count Char</button>
+                    <button type="button" className="btn custom-btn-outline-success my-2 mx-2" onClick={copyToclipBoard}>Copy text</button>
                 </form>
 
             </div>

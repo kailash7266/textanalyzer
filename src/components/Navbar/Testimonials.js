@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Menu() {
+export default function Testimonials() {
 
   return (<>
     <div className='row testimonials'>
@@ -13,9 +13,9 @@ export default function Menu() {
         <div className="card">
           <i class="fa fa-user-circle-o mt-4" aria-hidden="true"></i>
           <div className="card-body">
-            <h5 className="card-title">Special title treatment</h5>
+            <h5 className="card-title">Alex Padari</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="/" className="btn">Go somewhere</a>
+            <a href="/" className="btn">Read more...</a>
           </div>
         </div>
       </div>
@@ -23,9 +23,9 @@ export default function Menu() {
         <div className="card">
           <i class="fa fa-user-circle-o mt-4" aria-hidden="true"></i>
           <div className="card-body">
-            <h5 className="card-title">Special title treatment</h5>
+            <h5 className="card-title">Smith John</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="/" className="btn">Go somewhere</a>
+            <a href="/" className="btn">Read more...</a>
           </div>
         </div>
       </div>
@@ -33,9 +33,9 @@ export default function Menu() {
         <div className="card">
           <i class="fa fa-user-circle-o mt-4" aria-hidden="true"></i>
           <div className="card-body">
-            <h5 className="card-title">Special title treatment</h5>
+            <h5 className="card-title">Helena Marsh</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="/" className="btn">Go somewhere</a>
+            <a href="/" className="btn">Read more...</a>
           </div>
         </div>
       </div>
@@ -43,9 +43,9 @@ export default function Menu() {
         <div className="card">
           <i class="fa fa-user-circle-o mt-4" aria-hidden="true"></i>
           <div className="card-body">
-            <h5 className="card-title">Special title treatment</h5>
+            <h5 className="card-title">Devid Will</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="/" className="btn">Go somewhere</a>
+            <a href="/" className="btn">Read more...</a>
           </div>
         </div>
       </div>

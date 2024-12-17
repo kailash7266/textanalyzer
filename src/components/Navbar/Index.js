@@ -11,6 +11,11 @@ function Navbar(props) {
 			$('.navbar').removeClass('floatingNav1');
 		}
 	});
+	
+	// $(document).on('click', '.nav-item', function(e){
+	//     // e.preventDefault();
+	//      $('html,body').animate({scrollTop: $(this).offset().top}, 800);
+	// })
 	return (
 		<>
 			<div className="containerNav">
@@ -32,7 +37,7 @@ function Navbar(props) {
 								<a className="nav-link" href="/">{props.contact}</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="/">{props.services}</a>
+								<a className="nav-link" href="#services">{props.services}</a>
 							</li>
 						</ul>
 						<form className="form-inline my-2 my-lg-0">
@@ -46,18 +51,18 @@ function Navbar(props) {
 	)
 
 }
-Navbar.propTypes={
+Navbar.propTypes = {
 	title: PropTypes.string.isRequired,
 	about: PropTypes.string.isRequired
 }
 
 Navbar.defaultProps = {
-	homepage:"Homepage",
+	homepage: "Homepage",
 	title: "Text Analizer",
-	contact:"Contact",
+	contact: "Contact",
 	services: "Services",
 	about: "About us",
-	button:"Search"
+	button: "Search"
 }
 
 export default Navbar;
